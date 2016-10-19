@@ -1,0 +1,13 @@
+spring.jackson.serialization.INDENT_OUTPUT: true
+
+logging.level:
+  org.springframework: ERROR
+  io.undertow: ERROR
+  org.xnio: ERROR
+  org.apache: ERROR
+
+server:
+  port: 8080
+  address: 127.0.0.1
+
+management.port: -1
