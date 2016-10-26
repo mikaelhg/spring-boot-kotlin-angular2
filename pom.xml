@@ -157,7 +157,7 @@
                         </goals>
                         <phase>generate-resources</phase>
                         <configuration>
-                            <arguments>run-script dev-build</arguments>
+                            <arguments>build</arguments>
                         </configuration>
                     </execution>
                 </executions>
