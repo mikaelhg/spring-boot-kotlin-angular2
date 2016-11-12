@@ -112,24 +112,26 @@
                     <execution>
                         <id>compile</id>
                         <phase>process-sources</phase>
-                        <goals><goal>compile</goal></goals>
+                        <goals>
+                            <goal>compile</goal>
+                        </goals>
                     </execution>
                     <execution>
                         <id>test-compile</id>
                         <phase>process-test-sources</phase>
-                        <goals><goal>test-compile</goal></goals>
+                        <goals>
+                            <goal>test-compile</goal>
+                        </goals>
                     </execution>
                 </executions>
             </plugin>
             <plugin>
                 <groupId>com.github.eirslett</groupId>
                 <artifactId>frontend-maven-plugin</artifactId>
-                <version>1.0</version>
+                <version>1.2</version>
                 <configuration>
                     <workingDirectory>src/main/frontend</workingDirectory>
-                    <nodeDownloadRoot>https://nodejs.org/dist/</nodeDownloadRoot>
-                    <nodeVersion>v6.4.0</nodeVersion>
-                    <npmVersion>3.10.3</npmVersion>
+                    <nodeVersion>v7.1.0</nodeVersion>
                     <installDirectory>target</installDirectory>
                 </configuration>
                 <executions>
@@ -157,7 +159,7 @@
                         </goals>
                         <phase>generate-resources</phase>
                         <configuration>
-                            <arguments>build</arguments>
+                            <arguments>run build</arguments>
                         </configuration>
                     </execution>
                 </executions>

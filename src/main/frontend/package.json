@@ -5,6 +5,7 @@
   "angular-cli": {},
   "scripts": {
     "build": "ng build -prod",
+    "watch": "ng build --watch true",
     "start": "ng serve",
     "lint": "tslint \"src/**/*.ts\"",
     "test": "ng test",
@@ -13,23 +14,24 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/common": "~2.1.1",
-    "@angular/compiler": "~2.1.1",
-    "@angular/core": "~2.1.1",
-    "@angular/forms": "~2.1.1",
-    "@angular/http": "~2.1.1",
-    "@angular/platform-browser": "~2.1.1",
-    "@angular/platform-browser-dynamic": "~2.1.1",
-    "@angular/router": "~3.1.1",
+    "@angular/common": "~2.1.2",
+    "@angular/compiler": "~2.1.2",
+    "@angular/core": "~2.1.2",
+    "@angular/forms": "~2.1.2",
+    "@angular/http": "~2.1.2",
+    "@angular/platform-browser": "~2.1.2",
+    "@angular/platform-browser-dynamic": "~2.1.2",
+    "@angular/router": "~3.1.2",
     "core-js": "^2.4.1",
-    "rxjs": "5.0.0-rc.1",
-    "ts-helpers": "^1.1.1",
-    "zone.js": "^0.6.23"
+    "rxjs": "5.0.0-rc.2",
+    "ts-helpers": "^1.1.2",
+    "zone.js": "^0.6.26"
   },
   "devDependencies": {
-    "@types/jasmine": "^2.2.30",
-    "@types/node": "^6.0.42",
-    "angular-cli": "1.0.0-beta.18",
+    "@types/chai": "^3.4.34",
+    "@types/jasmine": "^2.5.37",
+    "@types/node": "^6.0.46",
+    "angular-cli": "1.0.0-beta.19-3",
     "codelyzer": "~1.0.0-beta.3",
     "jasmine-core": "2.5.2",
     "jasmine-spec-reporter": "2.7.0",
@@ -38,9 +40,9 @@
     "karma-cli": "^1.0.1",
     "karma-jasmine": "^1.0.2",
     "karma-remap-istanbul": "^0.2.1",
-    "protractor": "4.0.9",
-    "ts-node": "1.6.0",
+    "protractor": "4.0.11",
+    "ts-node": "1.7.0",
     "tslint": "3.15.1",
-    "typescript": "2.0.3"
+    "typescript": "2.0.9"
   }
 }
