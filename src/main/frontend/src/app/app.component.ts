@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import { Http } from '@angular/http';
+import {Http} from '@angular/http';
 import {Observable} from 'rxjs/Rx';
 
 @Component({
@@ -9,7 +9,7 @@ import {Observable} from 'rxjs/Rx';
 })
 export class AppComponent implements OnInit {
 
-  private title = 'Hello, World!';
+  private title: string = 'Hello, World!';
 
   private state = {
     name: 'Initial',
