@@ -7,7 +7,5 @@ logging.level:
   org.apache: ERROR
 
 server:
-  port: 8080
+  port: 7070
   address: 127.0.0.1
-
-management.port: -1
