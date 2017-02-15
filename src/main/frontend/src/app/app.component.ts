@@ -9,9 +9,9 @@ import {Observable} from 'rxjs/Rx';
 })
 export class AppComponent implements OnInit {
 
-  private title: string = 'Hello, World!';
+  public title: string = 'Hello, World!';
 
-  private state = {
+  public state: any = {
     name: 'Initial',
     counter: -1,
     timestamp: ''
